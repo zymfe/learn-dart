@@ -38,6 +38,14 @@ class Person {
   void set myAge (value) {
     this.age = value;
   }
+
+  void message () {
+    print('this is a message');
+  }
+
+  static printRandom () {
+    print('printRandom: 123');
+  }
 }
 
 // 以 _ 开头的类、类属性、类方法，只在当前文件中可用，其他文件不能引用

@@ -1,4 +1,5 @@
 import 'lib/Person.dart';
+import 'lib/Student.dart';
 
 void main () {
   var person = new Person('zhaoyiming', 18);
@@ -47,4 +48,16 @@ void main () {
   } else {
     print('person is not Person5');
   }
+
+  var student = new Student('lisi', 10, 'man');
+  student.printInfo();
+  // 多态
+  Person $person = new Student('zhangsan', 19, 'man');
+  print('+++++++++');
+  $person.printInfo();
+  print('+++++++++');
+  $person.message();
+  Student.printRandom();
+  // $person.printAge(); // 报错
+  student.printAge();
 }
