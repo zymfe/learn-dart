@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "Dart",
-      "program": "test/enum.dart",
+      "program": "test/generic.dart",
       "request": "launch",
       "type": "dart"
     }
