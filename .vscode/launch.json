@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "Dart",
-      "program": "test/map.dart",
+      "program": "test/dynamic.dart",
       "request": "launch",
       "type": "dart"
     }
