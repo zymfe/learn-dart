@@ -10,4 +10,8 @@ void main () {
 
   dynamic list3 = [1, '2', false];
   print(list3); // [1, 2, false]
+
+  for (var item in list2) {
+    print(item);
+  }
 }
