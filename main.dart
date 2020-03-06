@@ -15,4 +15,33 @@ void main () {
   
   const d = 'world';
   print(d);
+
+  int e = 1;
+  int f = 2;
+  print(e + f);
+  print(e - f);
+  print(e * f);
+  print(e / f);
+  print(e ~/ f); // 取整
+  print(e % f); // 取余
+
+  int g = 0;
+  int h = 0;
+  print(g/h); // NaN
+  int i = g * h;
+  print(i.isNaN); // false
+  print(i.isEven); // true
+  print(i.isOdd); // false
+  print(i.isFinite); // true
+  print(i.isFinite); // true
+
+  // double j = e / f;
+  num j = e / f;
+  print(j.toString());
+  print(j.ceil());
+  print(j.floor());
+  print(j.floorToDouble()); // 0.0
+  print(j.round()); // 1
+  print(j.roundToDouble()); // 1.0
+  
 }
